@@ -1,0 +1,9 @@
+* Simple MSI Bootstrapper
+
+msiファイルを実行するだけのシンプルなsetup.exeです。
+
+今のところ、次のことを行います。
+
+1. Windows Installer バージョン2.0以降が見つからなければインストールするように促す。
+2. 文字列リソースに記録されている.msiファイル名を取得する(デフォルトはsetup.msi)。
+3. msiファイルをフルUIで起動する。
